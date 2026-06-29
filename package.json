@@ -20,5 +20,11 @@
   "workspaces": [
     "apps/*",
     "packages/*"
+  ],
+  "workspaces_nohoist": [
+    "**/react-native",
+    "**/react-native/**",
+    "**/metro",
+    "**/metro/**"
   ]
 }
