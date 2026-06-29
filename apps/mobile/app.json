@@ -1,0 +1,65 @@
+{
+  "expo": {
+    "name": "NASI",
+    "slug": "nasi-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#16A34A"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.nasi.app",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "NASI needs your location to show the map and navigate.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "NASI uses your location in the background for turn-by-turn navigation.",
+        "NSMotionUsageDescription": "NASI uses motion data to improve navigation accuracy."
+      },
+      "config": {
+        "googleMapsApiKey": "AIzaSyBpEF5YIs51dPLhHq08sQMrcNUqNyVyUSs"
+      }
+    },
+    "android": {
+      "package": "com.nasi.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#16A34A"
+      },
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_BACKGROUND_LOCATION",
+        "FOREGROUND_SERVICE",
+        "VIBRATE"
+      ],
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCOFp2ZANYDtGYU_78F9kXnp70RkJBWIHI"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "NASI uses your location for navigation."
+        }
+      ]
+    ],
+    "scheme": "nasi",
+    "extra": {
+      "firebaseProjectId": "nasi-c5f24",
+      "eas": {
+        "projectId": "com.nasi.app"
+      }
+    }
+  }
+}

@@ -36,3 +36,16 @@ yarn-error.log*
 # Misc
 .DS_Store
 *.pem
+
+# Firebase native config — contain API keys, never commit
+google-services.json
+GoogleService-Info.plist
+
+# Expo
+.expo/
+apps/mobile/.expo/
+
+# Firebase
+.firebase/
+firebase-debug.log
+firestore-debug.log
