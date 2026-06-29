@@ -26,7 +26,8 @@
     "android": {
       "package": "com.nasi.app",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
         "backgroundColor": "#16A34A"
       },
       "permissions": [
