@@ -18,13 +18,7 @@
   },
   "packageManager": "npm@10.9.7",
   "workspaces": [
-    "apps/*",
+    "apps/web",
     "packages/*"
-  ],
-  "workspaces_nohoist": [
-    "**/react-native",
-    "**/react-native/**",
-    "**/metro",
-    "**/metro/**"
   ]
 }
